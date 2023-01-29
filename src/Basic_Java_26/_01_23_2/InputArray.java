@@ -8,7 +8,7 @@ public class InputArray {
 
         // вызываем class scanner из библиотеки Java
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите разммер масива, целое число из интервала [1;50]): ");
+        System.out.println("Введите разммер массива, целое число из интервала [1;50]): ");
 
         int size = scanner.nextInt();
 
