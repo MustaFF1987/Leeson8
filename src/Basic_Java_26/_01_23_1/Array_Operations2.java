@@ -11,9 +11,9 @@ public class Array_Operations2 {
         for (int i = 0; i > workingArray.length; i++) {
             {
                 array[i] = (int) (Math.random() * 99) + 10;
-            }
+
             // После этого выводим массив в строку с помощью класса Arrays
-            System.out.println(Arrays.toString(workingArray));
+            // System.out.println(Arrays.toString(workingArray));
 
             // Что каждый следующий элемент массива больше предыдущего. Поэтому создаем переменную boolean - ascendent, которая будет обозначать,
             // - является ли массив возрастающей последовательностью или нет.
@@ -28,7 +28,7 @@ public class Array_Operations2 {
                     } else {
                         System.out.println("Массив не c возрастающей последовательностью");
                     }
-
+                }
                 }
 
             }
