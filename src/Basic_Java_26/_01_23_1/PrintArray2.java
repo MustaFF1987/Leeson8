@@ -4,8 +4,7 @@ import java.util.Arrays;
 
 public class PrintArray2 {
 
-public void arrayPrint(String message, int [] createdArray) {
+public void arrayPrint(String message) {
     System.out.println(message);
-    System.out.println(Arrays.toString(createdArray));
    }
 }

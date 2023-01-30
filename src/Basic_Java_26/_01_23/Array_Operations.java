@@ -13,7 +13,7 @@ public class Array_Operations {
                 workingArray[i] = 0;
             }
         }
-        System.out.println("New array - " + Arrays.toString(workingArray));
+        System.out.println("Новый массив созданный массив: " + Arrays.toString(workingArray));
     }
 }
 

@@ -15,8 +15,8 @@ public class Second_Task_5numbers {
        // и сохраним результат работы этого метода в локальную переменной workArray
        int[] workArray = input2Array.userInput2();
        // через экземпдяр класса printArray взываем метод arrayPrint с аргументами message и createdArray
-       print2Array.arrayPrint("Ваш созданный массив: ",workArray);
+       //print2Array.arrayPrint("Ваш созданный массив: ",workArray);
 
-      array2operations.ascendentArray(workArray);
+        array2operations.ascendentArray(workArray);
     }
 }

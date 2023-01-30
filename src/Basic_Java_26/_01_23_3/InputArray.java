@@ -1,13 +1,15 @@
-package Basic_Java_26._01_23_1;
+package Basic_Java_26._01_23_3;
 
 import java.util.Scanner;
 
-public class InputArray2 {
+public class InputArray {
 
-    public int[] userInput2() {
+    public int[] userInput() {
 
+        // вызываем class scanner из библиотеки Java
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите длину массива из интервала [10;99]): ");
+        System.out.println("Введите разммер массива, целое число из интервала [1;50]): ");
+
         int size = scanner.nextInt();
 
         // объявляем о создание массива целых чисел с названием createdArray
@@ -15,7 +17,9 @@ public class InputArray2 {
         int[] createdArray = new int[size];
 
         for (int i = 0; i < createdArray.length; i++) {
+            System.out.println("--------------------------------");
             System.out.println("Введите " + i + " индекс массива");
+
             // обрашаемся к сканнеру и записываем введенное число в массив с соответсвующим индексом
             createdArray[i] = scanner.nextInt();
         }
