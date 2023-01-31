@@ -29,7 +29,7 @@ public class Array_Operations2 {
                 } else {
                     System.out.println("Массив с убывающей прогрессией!");
                 }
-
+                break;
 
             }
 

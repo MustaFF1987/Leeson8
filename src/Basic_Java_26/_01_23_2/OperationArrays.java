@@ -2,7 +2,7 @@ package Basic_Java_26._01_23_2;
 
 import java.util.Arrays;
 
-public class OperationArrays3 {
+public class OperationArrays {
     public static int getMissingNumber(int[] arr) {
         // создаём переменную n типа Integer и записываем туда получаем длинну массива
         int n = arr.length;

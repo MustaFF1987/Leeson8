@@ -9,9 +9,10 @@ public class PairSum {
 
         Scanner scanner = new Scanner(System.in);
         InputArray inputArray = new InputArray();
+        PrintArray printArray = new PrintArray();
         int[] workArray = inputArray.userInput();
         System.out.println("Введите сумму чисел для поиска кол-ва пар в массиве: ");
         int k = scanner.nextInt();
-        System.out.println("Число пар в вашем масиве:  " + arrayOperations.countPairs(workArray, k));
+        printArray.arrayPrint("Число пар в вашем масиве:  " + arrayOperations.countPairs(workArray, k));
     }
 }

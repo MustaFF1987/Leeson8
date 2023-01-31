@@ -17,6 +17,7 @@ public class First_Task_8numbers {
         // и сохраним результат работы этого метода в локальную переменной workArray
         int[] workArray = inputArray.userInput();
 
+
         // через экземпдяр класса printArray взываем метод arrayPrint с аргументами message и createdArray
         printArray.arrayPrint("Ваш созданный массив: ",workArray);
 

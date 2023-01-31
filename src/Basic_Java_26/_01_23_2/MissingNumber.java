@@ -1,12 +1,12 @@
 package Basic_Java_26._01_23_2;
 
-import static Basic_Java_26._01_23_2.OperationArrays3.getMissingNumber;
+import static Basic_Java_26._01_23_2.OperationArrays.getMissingNumber;
 
 public class MissingNumber {
 
     public static void main(String[] args)
     {
-        OperationArrays3 operationArray = new OperationArrays3();
+        OperationArrays operationArray = new OperationArrays();
         // создаём новый екзкмпляр класса InputArray
         InputArray inputArray = new InputArray();
 
@@ -18,9 +18,9 @@ public class MissingNumber {
         PrintArray printArray = new PrintArray();
         System.out.println("------------------------------");
 
-        operationArray.getMissingNumber(workArray);
+        OperationArrays.getMissingNumber(workArray);
 
-        // через экземпдяр класса printArray взываем метод arrayPrint с аргументами message
+        // через экземпдяр класса printArray взываем метод arrayPrint с аргументами
         printArray.arrayPrint("Пропущенное число в массиве " + getMissingNumber(workArray));
     }
 }
