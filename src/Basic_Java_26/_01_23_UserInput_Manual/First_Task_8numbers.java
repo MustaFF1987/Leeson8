@@ -1,4 +1,4 @@
-package Basic_Java_26._01_23;
+package Basic_Java_26._01_23_UserInput_Manual;
 
 public class First_Task_8numbers {
 

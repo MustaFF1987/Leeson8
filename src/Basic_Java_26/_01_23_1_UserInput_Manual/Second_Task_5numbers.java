@@ -1,7 +1,12 @@
-package Basic_Java_26._01_23_1;
+package Basic_Java_26._01_23_1_UserInput_Manual;
 
 public class Second_Task_5numbers {
     public static void main(String[] args) {
+
+        int arraySize = 5;
+
+        int arrayRangeStart = 10;
+        int arrayRangeEnd = 99;
 
         // создаём новый екзкмпляр класса InputArray
         InputArray2 input2Array = new InputArray2();

@@ -1,4 +1,4 @@
-package Basic_Java_26._01_23;
+package Basic_Java_26._01_23_UserInput_Manual;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class InputArray {
             // обрашаемся к сканнеру и записываем введенное число в массив с соответсвующим индексом
             createdArray[i] = scanner.nextInt();
         }
-        // в результатет возвращаем заполненый массив в качестве параметра указываем reatedArray
+        // в результатет возвращаем заполненый массив в качестве параметра указываем createdArray
         return createdArray;
     }
 }

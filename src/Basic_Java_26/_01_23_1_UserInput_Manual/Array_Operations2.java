@@ -1,6 +1,4 @@
-package Basic_Java_26._01_23_1;
-
-import java.util.Arrays;
+package Basic_Java_26._01_23_1_UserInput_Manual;
 
 public class Array_Operations2 {
 

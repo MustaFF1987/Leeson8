@@ -1,4 +1,4 @@
-package Basic_Java_26._01_23_1;
+package Basic_Java_26._01_23_1_UserInput_Manual;
 
 import java.util.Scanner;
 

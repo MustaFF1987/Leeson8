@@ -1,4 +1,4 @@
-package Basic_Java_26._01_23;
+package Basic_Java_26._01_23_UserInput_Manual;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class Array_Operations {
                 workingArray[i] = 0;
             }
         }
-        System.out.println("Новый массив созданный массив: " + Arrays.toString(workingArray));
+         System.out.print("Новый созданный массив: " + Arrays.toString(workingArray));
     }
 }
 
