@@ -11,8 +11,9 @@ public class PairSum {
         InputArray inputArray = new InputArray();
         PrintArray printArray = new PrintArray();
         int[] workArray = inputArray.userInput();
-        System.out.println("Введите сумму чисел для поиска кол-ва пар в массиве: ");
+        System.out.println("--------------------------------");
+        System.out.print("Введите сумму чисел для поиска кол-ва пар в массиве: ");
         int k = scanner.nextInt();
-        printArray.arrayPrint("Число пар в вашем масиве:  " + arrayOperations.countPairs(workArray, k));
+        printArray.arrayPrint("Число пар в вашем масиве: " + arrayOperations.countPairs(workArray, k));
     }
 }

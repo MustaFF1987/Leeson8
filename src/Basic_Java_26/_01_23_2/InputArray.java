@@ -8,7 +8,7 @@ public class InputArray {
 
         // вызываем class scanner из библиотеки Java
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите разммер массива, целое число из интервала [1;50]): ");
+        System.out.print("Введите разммер массива: ");
 
         int size = scanner.nextInt();
 
@@ -17,13 +17,12 @@ public class InputArray {
         int[] createdArray = new int[size];
 
         for (int i = 0; i < createdArray.length; i++) {
-            System.out.println("--------------------------------");
-            System.out.println("Введите " + i + " индекс массива");
-
+            System.out.println("-----------------------------");
+            System.out.print("Введите " + i + " индекс массива: ");
             // обрашаемся к сканнеру и записываем введенное число в массив с соответсвующим индексом
             createdArray[i] = scanner.nextInt();
         }
-        // в результатет возвращаем заполненый массив в качестве параметра указываем reatedArray
+        // в результатет возвращаем заполненый массив в качестве параметра указываем createdArray
         return createdArray;
     }
 }
