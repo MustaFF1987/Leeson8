@@ -16,6 +16,7 @@ public class ThreeDigits2 {
         System.out.println(message);
     }
     public double compare(double parameter1, double parameter2, double parameter3 ){
+
         double compareResult = 0;
 
         if ((parameter1>=parameter2)&&(parameter1>=parameter3)) {
